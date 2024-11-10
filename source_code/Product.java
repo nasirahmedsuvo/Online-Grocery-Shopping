@@ -1,5 +1,5 @@
 public class Product {
-    private int Productld;
+    private int ProductId;
     private String name ;
     private float pricee;
     private String category;

@@ -26,6 +26,7 @@ public class Product {
         System.out.println("Updated availability for " + name + ": " + availability);
     }
 
+    
 
     
 

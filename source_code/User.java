@@ -18,4 +18,8 @@ public class User{
     public boolean Login(String email, String password){
         return this.email.equals(email) && this.password.equals(password);
     }
+
+    public void Logout(){
+        System.out.println("User Logged Out");
+    }
 }

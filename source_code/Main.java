@@ -34,6 +34,13 @@ public class Main {
 
 
 
+        // View updated details
+        System.out.println("\nUpdated Product Details:");
+        product1.viewProduct();
+        System.out.println();
+        product2.viewProduct();
+
+
     }
 
     

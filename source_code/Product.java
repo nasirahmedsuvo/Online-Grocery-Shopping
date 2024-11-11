@@ -26,7 +26,14 @@ public class Product {
         System.out.println("Updated availability for " + name + ": " + availability);
     }
 
-    
+    public void viewProduct() {
+        System.out.println("Product ID: " + productId);
+        System.out.println("Name: " + name);
+        System.out.println("Price: $" + price);
+        System.out.println("Category: " + category);
+        System.out.println("Availability: " + availability + " units");
+    }
+
 
     
 

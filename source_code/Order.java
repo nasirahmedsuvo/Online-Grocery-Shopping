@@ -12,4 +12,8 @@ public class Order {
         this.status = status;
         this.totalAmmount = totalAmmount;
     }
+
+    public void placeOrder(){
+        System.out.println("Your order has heen placed");
+    }
 }

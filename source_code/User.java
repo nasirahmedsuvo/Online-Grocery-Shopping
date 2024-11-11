@@ -14,4 +14,8 @@ public class User{
     public void Resister(){
         System.out.println("User's Resistration Complete");
     }
+
+    public boolean Login(String email, String password){
+        return this.email.equals(email) && this.password.equals(password);
+    }
 }

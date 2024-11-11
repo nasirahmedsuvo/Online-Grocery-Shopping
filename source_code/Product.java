@@ -1,3 +1,5 @@
+
+
 public class Product {
     private int ProductId;
     private String name ;
@@ -13,5 +15,27 @@ public class Product {
         this.category = category ;
         this.availability = availability;
     }
+
+    public void addProduct(){
+        System.out.println("Product Add : " + name);
+    }
+
+
+    public void updateAvailability(int quantity){
+        this.availability += quantity;
+        System.out.println("Updated availability for " + name + ": " + availability);
+    }
+
+
+    
+
+
+
+
+
+
+
+
+
 
 }

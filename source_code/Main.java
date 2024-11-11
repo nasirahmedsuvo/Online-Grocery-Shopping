@@ -20,6 +20,11 @@ public class Main {
                 product1.addProduct();
                 product2.addProduct();
 
+        // View product details
+        System.out.println("\nViewing Product Details:");
+        product1.viewProduct();
+        System.out.println();
+        product2.viewProduct();
 
 
     }

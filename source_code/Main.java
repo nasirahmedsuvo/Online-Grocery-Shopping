@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class Main {
     public static void main(String[] args) {
         // User 
@@ -8,7 +10,7 @@ public class Main {
 
         // Log In
         if(user.Login("rdj@gmail.com", "I'mIronMan")){
-            System.out.println("User Logged In");
+            System.out.println("\nUser Logged In\n");
         }
 
 
@@ -44,11 +46,14 @@ public class Main {
         System.out.println();
         product2.viewProduct();
 
-        
-
-        
 
 
+
+        //Order
+
+        //Creating an order
+        Order order = new Order(1, new Date(), "Pending", 999.00);
+        order.placeOrder();
     }
 
     

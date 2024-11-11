@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         // User 
 
-        // Resister Information
+        // Creating User
         User user = new User(1, "Robert Downey Jr", "rdj@gmail.com", "I'mIronMan");
         user.Resister();
 
@@ -43,6 +43,10 @@ public class Main {
         product1.viewProduct();
         System.out.println();
         product2.viewProduct();
+
+        
+
+        
 
 
     }

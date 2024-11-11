@@ -1,15 +1,15 @@
 
 
 public class Product {
-    private int ProductId;
+    private int productId;
     private String name ;
     private float price;
     private String category;
     private int availability;
 
-    public Product (int ProductId,String name,float pricee,String category,int availability) {
+    public Product (int productId,String name,float pricee,String category,int availability) {
 
-        this.ProductId = ProductId;
+        this.productId = productId;
         this.name = name;
         this.price = price;
         this.category = category ;

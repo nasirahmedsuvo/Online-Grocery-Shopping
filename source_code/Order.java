@@ -1,8 +1,15 @@
-import java.util.date;
+import java.util.Date;
 
 public class Order {
     private int orderID;
-    private date orderDate;
+    private Date orderDate;
     private String status;
     private float totalAmmount;
+
+    public Order(int orderID, Date orderDate, String status, float totalAmmount){
+        this.orderID = orderID;
+        this.orderDate = orderDate;
+        this.status = status;
+        this.totalAmmount = totalAmmount;
+    }
 }

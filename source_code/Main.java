@@ -27,6 +27,13 @@ public class Main {
         product2.viewProduct();
 
 
+        // Updating availability
+        System.out.println("\nUpdating Availability:");
+        product1.updateAvailability(-2); 
+        product2.updateAvailability(5);  
+
+
+
     }
 
     

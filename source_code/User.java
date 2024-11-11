@@ -1,12 +1,14 @@
 public class User{
-    private int userID;
-    private String name;
-    private String email;
-    private String password;
+    @SuppressWarnings("unused")
+    private final int userID;
+    @SuppressWarnings("unused")
+    private final String UserName;
+    private final String email;
+    private final String password;
 
-    public User(int userID, String name, String email, String password){
+    public User(int userID, String UserName, String email, String password){
         this.userID = userID;
-        this.name = name;
+        this.UserName = UserName;
         this.email = email;
         this.password = password;
     }

@@ -4,9 +4,9 @@ public class Order {
     private int orderID;
     private Date orderDate;
     private String status;
-    private float totalAmmount;
+    private double totalAmmount;
 
-    public Order(int orderID, Date orderDate, String status, float totalAmmount){
+    public Order(int orderID, Date orderDate, String status, double totalAmmount){
         this.orderID = orderID;
         this.orderDate = orderDate;
         this.status = status;

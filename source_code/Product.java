@@ -35,14 +35,25 @@ public class Product {
     }
 
 
-    
+    public int getProductId() {
+        return productId;
+    }
 
+    public String getName() {
+        return name;
+    }
 
+    public float getPrice() {
+        return price;
+    }
 
+    public String getCategory() {
+        return category;
+    }
 
-
-
-
+    public int getAvailability() {
+        return availability;
+    }
 
 
 

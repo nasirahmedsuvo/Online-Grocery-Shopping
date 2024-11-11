@@ -1,8 +1,12 @@
 public class Main {
     public static void main(String[] args) {
+        // User 
+
+        // Resister Information
         User user = new User(1, "Robert Downey Jr", "rdj@gmail.com", "I'mIronMan");
         user.Resister();
 
+        // Log In
         if(user.Login("rdj@gmail.com", "I'mIronMan")){
             System.out.println("User Logged In");
         }

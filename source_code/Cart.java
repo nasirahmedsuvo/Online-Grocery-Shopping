@@ -12,4 +12,9 @@ public class Cart {
         this.totalPrice = 0.0f;
     
    }
+   public void addItem(Product product) {
+    items.add(product);
+    calculateTotal();
+    System.out.println("Product added to cart.");
+}
 }

@@ -21,5 +21,7 @@ public class Order {
         System.out.println("\nYour order has heen canceled");
     } 
 
-    
+    public void trackOrder(){
+        System.out.println("\nTracking order ID: " + orderID + "\nStatus: " + status);
+    }
 }

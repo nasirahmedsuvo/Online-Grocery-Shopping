@@ -1,10 +1,16 @@
+import java.util.Date;
+
 public class Main {
     public static void main(String[] args) {
+        // User 
+
+        // Creating User
         User user = new User(1, "Robert Downey Jr", "rdj@gmail.com", "I'mIronMan");
         user.Resister();
 
+        // Log In
         if(user.Login("rdj@gmail.com", "I'mIronMan")){
-            System.out.println("User Logged In");
+            System.out.println("\nUser Logged In\n");
         }
 
 
@@ -41,6 +47,13 @@ public class Main {
         product2.viewProduct();
 
 
+
+
+        //Order
+
+        //Creating an order
+        Order order = new Order(1, new Date(), "Pending", 999.00);
+        order.placeOrder();
     }
 
     

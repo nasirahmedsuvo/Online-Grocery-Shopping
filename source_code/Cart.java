@@ -28,4 +28,9 @@ public void calculateTotal() {
         totalPrice += item.getPrice();
     }
 }
+public float getTotalPrice() {
+    return totalPrice;
+}
+
+}
 }

@@ -22,5 +22,10 @@ public void removeItem(Product product) {
     calculateTotal();
     System.out.println("Product removed from cart.");
 }
-
+public void calculateTotal() {
+    totalPrice = 0;
+    for (Product item : items) {
+        totalPrice += item.getPrice();
+    }
+}
 }

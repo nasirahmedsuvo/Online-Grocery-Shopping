@@ -17,4 +17,10 @@ public class Cart {
     calculateTotal();
     System.out.println("Product added to cart.");
 }
+public void removeItem(Product product) {
+    items.remove(product);
+    calculateTotal();
+    System.out.println("Product removed from cart.");
+}
+
 }

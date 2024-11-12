@@ -16,4 +16,10 @@ public class Order {
     public void placeOrder(){
         System.out.println("\nYour order has heen placed");
     }
+
+    public void cancelOrder(){
+        System.out.println("\nYour order has heen canceled");
+    } 
+
+    
 }

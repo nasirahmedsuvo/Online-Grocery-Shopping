@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Cart {
+    private int cartId;
+    private List<Product> items;
+    private float totalPrice;
+
+    public Cart(int cartId) {
+        this.cartId = cartId;
+        this.items = new ArrayList<>();
+        this.totalPrice = 0.0f;
+    
+   }
+}

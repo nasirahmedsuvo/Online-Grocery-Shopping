@@ -47,9 +47,12 @@ public class Main {
         product2.viewProduct();
 
 
+        // Add product to cart
+        Cart cart = new Cart(1);
+        cart.addItem(product);
+        System.out.println("Total Price is: " + cart.getTotalPrice());
 
-
-        //Order
+    
 
         //Creating an order
         Order order = new Order(1, new Date(), "Pending", 999.00);

@@ -31,6 +31,4 @@ public void calculateTotal() {
 public float getTotalPrice() {
     return totalPrice;
 }
-
-}
 }

@@ -54,7 +54,18 @@ public class Main {
         //Creating an order
         Order order = new Order(1, new Date(), "Pending", 999.00);
         order.placeOrder();
+
+
+        //payment 
+
+        //Creating a payment
+        Payment payment = new Payment(1, 999.00f, "Credit Card");
+        payment.processPayment();
+
+        
+        
     }
+
 
     
 }

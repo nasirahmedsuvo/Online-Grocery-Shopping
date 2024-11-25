@@ -9,9 +9,9 @@ public class Payment {
         this.method = method;
     }
 
-
-    public static void main(String[] args) {
-        
+    public void processPayment() {
+        System.out.println("Payment processed successfully with method: " + method);
     }
+
     
 }

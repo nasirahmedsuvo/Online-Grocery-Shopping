@@ -63,6 +63,10 @@ public class Main {
         payment.processPayment();
 
         
+        //delivery
+        //delivering the order
+        Delivery delivery = new Delivery(1, "123 Main St", "Delivered");
+        delivery.updateStatus("Delivered");
         
     }
 

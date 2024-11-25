@@ -8,4 +8,9 @@ public class Delivery {
         this.address = address;
         this.deliveryStatus = deliveryStatus;
     }
+
+    public void updateStatus(String status) {
+        this.deliveryStatus = status;
+        System.out.println("Delivery status updated to: " + status);
+    }
 }

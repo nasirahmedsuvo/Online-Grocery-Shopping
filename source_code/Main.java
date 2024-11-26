@@ -57,7 +57,22 @@ public class Main {
         //Creating an order
         Order order = new Order(1, new Date(), "Pending", 999.00);
         order.placeOrder();
+
+
+        //payment 
+
+        //Creating a payment
+        Payment payment = new Payment(1, 999.00f, "Credit Card");
+        payment.processPayment();
+
+        
+        //delivery
+        //delivering the order
+        Delivery delivery = new Delivery(1, "123 Main St", "Delivered");
+        delivery.updateStatus("Delivered");
+        
     }
+
 
     
 }

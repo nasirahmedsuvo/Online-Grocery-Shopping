@@ -33,8 +33,8 @@ Java Project - Online-Grocery-Shopping
                     | + calculateTotal()  |
                     +---------------------+
            +--------|                   |------------------+
-           |        |                   |                  |
-           v        v                   v                  v
+           |                            |                  |
+           v                            v                  v
 +--------------------+     +---------------------+     +--------------------------+
 |      Product       |     |      Payment        |     |    Delivery              |
 |--------------------|     |---------------------|     |--------------------------|
@@ -45,7 +45,7 @@ Java Project - Online-Grocery-Shopping
 | - availability: int|     | + processPayment()  |     | + updateStatus()         |
 |--------------------|     +---------------------+     +--------------------------+
 | + addProduct()     |
-| + updateAvailability() |
+| + updateAvailability()|
 | + viewProduct()    |
 +--------------------+
 

@@ -4,18 +4,18 @@ import java.util.List;
 public class Cart {
     private int cartId;
     private List<Product> items;
-    private float totalPrice;
+    private float price;
 
     public Cart(int cartId) {
         this.cartId = cartId;
         this.items = new ArrayList<>();
-        this.totalPrice = 0.0f;
+        this.price = 0.0f;
     
    }
    public void addItem(Product product) {
     items.add(product);
     calculateTotal();
-    System.out.println("Product added to cart.");
+    System.out.println("\nProduct added to cart.");
 }
 public void removeItem(Product product) {
     items.remove(product);
@@ -23,12 +23,12 @@ public void removeItem(Product product) {
     System.out.println("Product removed from cart.");
 }
 public void calculateTotal() {
-    totalPrice = 0;
+    price = 0;
     for (Product item : items) {
-        totalPrice += item.getPrice();
+        price += item.getPrice();
     }
 }
-public float getTotalPrice() {
-    return totalPrice;
+public float getPrice() {
+    return price;
 }
 }

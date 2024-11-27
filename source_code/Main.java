@@ -49,8 +49,8 @@ public class Main {
 
         // Add product to cart
         Cart cart = new Cart(1);
-        cart.addItem(product);
-        System.out.println("Total Price is: " + cart.getTotalPrice());
+        cart.addItem(product1);
+        System.out.println("Total Price is: " + cart.getPrice());
 
     
 

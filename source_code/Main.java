@@ -19,12 +19,9 @@ public class Main {
         //Product 
 
         // Creating instances of Product
-        Product product1 = new Product(1, "Laptop", 999.99f, "Electronics", 10);
-        Product product2 = new Product(2, "Smartphone", 599.99f, "Electronics", 20);
+        Product product1 = new Product(1, "Pushti Atta 2kg", 130f, "Atta", 10);
+        Product product2 = new Product(2, "PRAN Mushur Dal 1kg", 99f, "Dal", 20);
 
-                // Add productS
-                product1.addProduct();
-                product2.addProduct();
 
         // View product details
         System.out.println("\nViewing Product Details:");
@@ -33,18 +30,7 @@ public class Main {
         product2.viewProduct();
 
 
-        // Updating availability
-        System.out.println("\nUpdating Availability:");
-        product1.updateAvailability(-2); 
-        product2.updateAvailability(5);  
 
-
-
-        // View updated details
-        System.out.println("\nUpdated Product Details:");
-        product1.viewProduct();
-        System.out.println();
-        product2.viewProduct();
 
 
         // Add product to cart
@@ -55,14 +41,14 @@ public class Main {
     
 
         //Creating an order
-        Order order = new Order(1, new Date(), "Pending", 999.00);
+        Order order = new Order(1, new Date(), "Pending", 130.00);
         order.placeOrder();
 
 
         //payment 
 
         //Creating a payment
-        Payment payment = new Payment(1, 999.00f, "Credit Card");
+        Payment payment = new Payment(1, 130.00f, "Credit Card");
         payment.processPayment();
 
         
